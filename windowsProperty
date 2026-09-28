@@ -1,0 +1,15 @@
+const TITLE = "Particle Detector";
+let WIN_WIDTH = 600;
+let WIN_HEIGHT = 600;
+const WIN_FPS = 50;
+const WIN_POSITION_X = 1100;
+const WIN_POSITION_Y = 10;
+
+module.exports = {
+    TITLE,
+    WIN_WIDTH,
+    WIN_HEIGHT,
+    WIN_FPS,
+    WIN_POSITION_X,
+    WIN_POSITION_Y,
+}
