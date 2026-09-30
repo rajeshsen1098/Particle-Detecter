@@ -1,3 +1,5 @@
+// const r = require("raylib");
+
 const TITLE = "Particle Detector";
 let WIN_WIDTH = 600;
 let WIN_HEIGHT = 600;
@@ -5,6 +7,32 @@ const WIN_FPS = 50;
 const WIN_POSITION_X = 1100;
 const WIN_POSITION_Y = 10;
 
+colors = {
+    BG: {
+        r: 0,
+        g: 0,
+        b: 0,
+        a: 255,
+    },
+    SC_DEFAULT: {
+        r: 255,
+        g: 255,
+        b: 255,
+        a: 255,
+    },
+    SC_DETECTED: {
+        r: 230,
+        g: 41,
+        b: 55,
+        a: 150,
+    },
+    P_COLOR: {
+        r: 0,
+        g: 50,
+        b: 255,
+        a: 255,
+    },
+}
 module.exports = {
     TITLE,
     WIN_WIDTH,
@@ -12,4 +40,5 @@ module.exports = {
     WIN_FPS,
     WIN_POSITION_X,
     WIN_POSITION_Y,
+    colors,
 }
