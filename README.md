@@ -4,19 +4,9 @@ A simple **Particle Detector simulation** built with **JavaScript** and **Raylib
 
 The project demonstrates how moving detector regions can detect particles by checking whether their ranges overlap. When a detector detects a particle, its color changes from white to red.
 
-## Demo
-
-The simulation runs in a `600 × 600` Raylib window.
-
-- **Blue regions** represent particles.
-- **White regions** represent detectors.
-- **Red regions** indicate that a detector has detected a particle.
-- Detectors move continuously and reverse direction when they reach their allowed boundaries.
 
 ## Features
 
-- 3 particle regions
-- 3 moving detectors
 - Real-time particle detection
 - Rectangle/range overlap detection
 - Automatic detector direction reversal at boundaries
@@ -101,16 +91,9 @@ Particle-Detecter/
 ├── main.js
 ├── sketch.js
 ├── geometry.js
-├── detecter.js
-│
-├── detector1.js
-├── detector2.js
-├── detector3.js
-│
-├── particle1.js
-├── particle2.js
-├── particle3.js
-│
+├── detecterFunction.js
+├── detectors.js
+├── particles.js
 ├── windowsProperty
 ├── package.json
 ├── package-lock.json
@@ -290,42 +273,9 @@ velocity = -velocity;
 
 This makes the detector move back in the opposite direction.
 
-## Learning Concepts
 
-This project is useful for practicing:
 
-- JavaScript modules
-- `require()` and `module.exports`
-- Functions and parameters
-- Objects and properties
-- Game/update loops
-- Collision/overlap detection
-- Basic geometry
-- State management
-- Raylib graphics
-- Animation using frame updates
 
-## Possible Improvements
-
-Some possible extensions for the project are:
-
-- Add more particles dynamically
-- Add more detectors dynamically
-- Give particles actual movement
-- Add particle velocity
-- Add different particle types
-- Add collision/detection counters
-- Display the number of detected particles
-- Add keyboard controls
-- Add mouse interaction
-- Add particle spawning
-- Add sound when a particle is detected
-- Add a detector/particle configuration screen
-- Improve the detection system to support full 2D rectangle collision
-
-## Future Goal
-
-The project can be extended from a fixed demonstration into a more general particle detection system where particles and detectors can be created dynamically and the detector system can report which particles are currently inside each detector.
 
 ## Author
 
@@ -333,6 +283,3 @@ The project can be extended from a fixed demonstration into a more general parti
 
 GitHub: [@rajeshsen1098](https://github.com/rajeshsen1098)
 
-## License
-
-No license is currently specified for this repository.
